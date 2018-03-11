@@ -1,0 +1,16 @@
+---
+tmp_dir: "/opt/versa_metrics/tmp"
+exclude_metrics:
+  - 'name'
+log_dir: "/var/log"
+cli_stats:
+  log_collector_exporter: "show log-collector-exporter | display json"
+  # tdf_statistics: "show orgs org-services comcast tdf statistics | nomore | display json"
+  # tdf_vsg_statistics: "show orgs org-services comcast tdf vsg statistics | nomore | display json"
+  # vsg_lef_status: "show orgs org-services comcast lef statistics | nomore | display json"
+  # vsg_sessions: "show orgs org comcast sessions summary | nomore | display json"
+  # vsg_dhcp_statistics: "show dhcp statistics global | nomore | display json"
+  # vsg_interface_statistics: "show interfaces statistics | nomore | display json"
+  #vsg_lef_collector_status: "show orgs org-services comcast lef collectors | nomore | display json"
+vsm_stats:
+  vsm_thrm_details: "show vsm statistics thrm  detail\r"

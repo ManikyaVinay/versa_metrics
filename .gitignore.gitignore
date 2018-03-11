@@ -1,0 +1,7 @@
+*.retry
+.vscode
+*.DS_Store
+*.pyc
+.vagrant
+.kitchen/
+venv
